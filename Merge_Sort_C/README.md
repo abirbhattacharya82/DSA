@@ -17,5 +17,5 @@ Think of it as a recursive algorithm continuously splits the array in half until
     merge(array, left, mid, right)
 * Step 4: Stop.
 
-# Time Complexity #.
+# Time Complexity #
 * Time Complexity of Merge Sort is O(N log(N)) 
