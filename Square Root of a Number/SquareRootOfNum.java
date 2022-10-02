@@ -3,8 +3,12 @@ import java.util.Scanner;
 public class SquareRootOfNum{
     public static void main(String... args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number: ");
+        System.out.println("Enter a positive number: ");
         int number = sc.nextInt();
+        if(number<0) {
+            System.out.println("Entered number is negative!");
+            System.exit(0);
+        }
         System.out.println("Enter the required precision: ");
         int precision = sc.nextInt();
         sc.close();
