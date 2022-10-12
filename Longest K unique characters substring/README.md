@@ -17,6 +17,10 @@ Output: -1 <br />
 Explanation: There's no substring with K
 distinct characters. 
 
+Constraints: <br />
+1 ≤ |S| ≤ 105 <br />
+1 ≤ K ≤ 105<br />
+
 ### Main steps to solve :<br />
 1.Create a map of char as key and integer as value.<br />
 2.Then,we will iterate through string using two pointers,the two pointers will tell us when the size of window is less ,equal or greater than K.<br />
