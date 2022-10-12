@@ -21,7 +21,7 @@ class Solution{
                 while(un.size()>k)
                 {
                     un[s[i]]--;
-                    if(un[s[i]] == 0)
+                    if(un[s[i]] == 0)//if frequency of ith character becomes 0,erase that character from map
                     un.erase(s[i]);
                     ++i;
                 }
